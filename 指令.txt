@@ -1,0 +1,92 @@
+
+
+
+
+
+
+检测到全局安装的 tsc 编译器(1.8.10)与 VS 代码语言服务(2.0.3)版本不匹配。这可能导致不一致的编译错误。
+https://code.visualstudio.com/docs/languages/typescript#_using-newer-typescript-versions
+
+
+
+安装 TypeScrip
+$ npm install -g typescript@1.8
+$ tsc -v
+
+
+运行 TypeScrip
+
+$ tsc test.ts
+$ node test.js
+
+$ npm install -g ts-node
+$ ts-node test.ts
+
+
+----------------------------------------------
+
+
+P40
+例子： switching-to-angular2/app
+git clone https://github.com/mgechev/switching-to-angular2.git
+cd switching-to-angular2
+npm install
+npm start
+
+
+
+
+P224
+git clone https://github.com/mgechev/angular2-seed.git
+cd angular2-seed
+npm install
+npm start
+
+
+
+
+
+
+Quick start
+http://www.typescriptlang.org/docs/tutorial.html
+
+
+
+
+$ npm install -g typings
+$ typings init
+
+
+
+
+////////////////////
+
+CLI
+git clone https://github.com/angular/angular-cli.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

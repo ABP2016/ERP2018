@@ -1,0 +1,92 @@
+
+
+
+function area(shape: string, width: number, height: number){
+    var area = width * height;
+    return "I'm a " + shape + " with an area of " + area + " cm squared.";
+}
+console.log(area("rectangle", 30, 15));
+
+
+
+
+
+
+
+\switching-to-angular2\app\ch3\decorators\nonenumerable
+
+class Person {
+  @nonenumerable
+  get kidCount() {
+    return 42;
+  }
+}
+
+function nonenumerable(target, name, descriptor) {
+  descriptor.enumerable = false;
+  return descriptor;
+}
+
+var person = new Person();
+
+for (let prop in person) {
+  console.log(prop);
+}
+
+console.log(person.kidCount);
+
+
+///////////////////////
+
+Enum(ÄÁ¾Ù)ÀàÐÍ
+
+
+
+
+----------------------
+TS
+enum STARES {
+	CONNECTING,
+	CONNECTED,
+	DISCONNECTING,
+	WAITING,
+	DISCONNECTED
+}
+if(this.state === STARES.CONNECTING){
+	console.log("connecting")
+}
+
+JS
+var STARES;
+(function (STARES) {
+    STARES[STARES["CONNECTING"] = 0] = "CONNECTING";
+    STARES[STARES["CONNECTED"] = 1] = "CONNECTED";
+    STARES[STARES["DISCONNECTING"] = 2] = "DISCONNECTING";
+    STARES[STARES["WAITING"] = 3] = "WAITING";
+    STARES[STARES["DISCONNECTED"] = 4] = "DISCONNECTED";
+})(STARES || (STARES = {}));
+if (this.state === STARES.CONNECTING) {
+    console.log("connecting");
+}
+
+----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

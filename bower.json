@@ -1,0 +1,19 @@
+{
+  "name": "AurochsBrainPlan",
+  "private": "true",
+  "dependencies": {
+    "jquery": "1.11.3",
+    "requirejs": "2.1.22",
+    "lodash": "3.10.1",
+    "moment": "2.11.0",
+    "bootstrap": "3.3.5",
+    "art-template": "",
+    "angular": "",
+    "angular-route": "",
+    "angular-sanitize": "",
+    "pie": ""
+  },
+  "resolutions": {
+    "jquery": "1.11.3"
+  }
+}

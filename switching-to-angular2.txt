@@ -1,0 +1,96 @@
+
+
+
+
+
+RUNN@DESKTOP-NO20EIG MINGW32 /c/AUROCHS
+$ git clone https://github.com/mgechev/switching-to-angular2.git
+Cloning into 'switching-to-angular2'...
+remote: Counting objects: 1232, done.
+remote: Total 1232 (delta 0), reused 0 (delta 0), pack-reused 1232
+Receiving objects: 100% (1232/1232), 198.10 KiB | 51.00 KiB/s, done.
+Resolving deltas: 100% (609/609), done.
+Checking connectivity... done.
+Checking out files: 100% (220/220), done.
+
+RUNN@DESKTOP-NO20EIG MINGW32 /c/AUROCHS
+$
+
+RUNN@DESKTOP-NO20EIG MINGW32 /c/AUROCHS
+$ cd switching-to-angular2
+
+RUNN@DESKTOP-NO20EIG MINGW32 /c/AUROCHS/switching-to-angular2 (master)
+$ npm install
+npm WARN deprecated es6-module-loader@0.17.11: This project has been deprecated for "npm install es-module-loader" based on the newer loader spec.
+npm WARN deprecated gulp-minify-css@1.2.4: Please use gulp-clean-css
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm WARN deprecated npmconf@2.1.1: this package has been reintegrated into npm and is now out of date with respect to npm
+npm WARN prefer global marked@0.3.6 should be installed with -g
+
+> phantomjs2-ext@0.1.0 install C:\AUROCHS\switching-to-angular2\node_modules\phantomjs2-ext
+> node install.js
+
+Downloading https://github.com/gskachkov/phantomjs/releases/download/2.0.0-20141016-x86/phantomjs-2.0.0-20141016-win-x86.zip
+Saving to C:\Users\RUNN\AppData\Local\Temp\phantomjs\phantomjs-2.0.0-20141016-win-x86.zip
+Receiving...
+
+Received 20029K total.
+Extracting zip contents
+Removing C:\AUROCHS\switching-to-angular2\node_modules\phantomjs2-ext\lib\phantom
+Copying extracted folder C:\Users\RUNN\AppData\Local\Temp\phantomjs\phantomjs-2.0.0-20141016-win-x86.zip-extract-1476612353996\bin -> C:\AUROCHS\switching-to-angular2\node_modules\phantomjs2-ext\lib\phantom
+Removing C:\Users\RUNN\AppData\Local\Temp\phantomjs\phantomjs-2.0.0-20141016-win-x86.zip-extract-1476612353996
+Writing location.js file
+Done. Phantomjs binary available at C:\AUROCHS\switching-to-angular2\node_modules\phantomjs2-ext\lib\phantom\phantomjs.exe
+
+> angular2-seed@0.0.0 postinstall C:\AUROCHS\switching-to-angular2
+> rimraf typings && typings install && gulp check.versions && gulp postinstall
+
+typings WARN deprecated 2016-07-02 18:56:36: "registry:dt/systemjs#0.18.4+20160417155658" has been deprecated
+
+©À©¤©¤ Q (ambient)
+©À©¤©¤ async (ambient)
+©À©¤©¤ chalk (ambient)
+©À©¤©¤ del (ambient)
+©À©¤©¤ es6-promise (ambient)
+©À©¤©¤ express (ambient)
+©À©¤©¤ glob (ambient)
+©À©¤©¤ gulp (ambient)
+©À©¤©¤ gulp-util (ambient)
+©À©¤©¤ mime (ambient)
+©À©¤©¤ minimatch (ambient)
+©À©¤©¤ node (ambient)
+©À©¤©¤ orchestrator (ambient)
+©À©¤©¤ serve-static (ambient)
+©À©¤©¤ systemjs (ambient)
+©À©¤©¤ through2 (ambient)
+©¸©¤©¤ vinyl (ambient)
+
+[18:06:44] Requiring external module ts-node/register
+[18:07:07] Loading task clean all
+[18:07:10] Loading task clean dist
+[18:07:10] Loading task clean test
+[18:07:10] Loading task clean tmp
+[18:07:10] Loading task check.versions
+[18:07:12] Using gulpfile C:\AUROCHS\switching-to-angular2\gulpfile.ts
+[18:07:12] Starting 'check.versions'...
+[18:07:12] Finished 'check.versions' after 128 ms
+[18:07:28] Requiring external module ts-node/register
+[18:07:48] Loading task clean all
+[18:07:50] Loading task clean dist
+[18:07:50] Loading task clean test
+[18:07:50] Loading task clean tmp
+[18:07:50] Loading task check.versions
+[18:07:52] Using gulpfile C:\AUROCHS\switching-to-angular2\gulpfile.ts
+[18:07:52] Starting 'postinstall'...
+[18:07:52] Loading task clean
+[18:07:52] Loading task npm
+[18:07:55] Starting 'clean'...
+[18:07:55] Finished 'clean' after 358 ¦Ìs
+[18:07:55] Starting 'npm'...
+[18:08:07] Finished 'npm' after 12 s
+[18:08:07] Finished 'postinstall' after 15 s
+
+
+
